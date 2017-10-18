@@ -37,9 +37,9 @@ class SimScrollModel{
     th = null;
   };
   creatScroll(){
-    if(sys.qsAll(".sim-scroll").length > 0){
+    if(document.querySelectorAll(".sim-scroll").length > 0){
       // 此处的item是每个sim-scroll单元
-      for(let item of sys.qsAll(".sim-scroll")){
+      for(let item of document.querySelectorAll(".sim-scroll")){
         item.innerHTML = `<div class="content-case">
           <div class="content-inside">${item.innerHTML}</div>
         </div>
