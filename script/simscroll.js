@@ -1,6 +1,6 @@
 class SimScrollModel{
   constructor(){
-    this.info = "A sim scroll model by 鲤白";
+    this.info = "A simple sim scroll model by 鲤白";
   };
   rollUp(elem){
     // 此处的elem是sim-scroll单元中的.content-inside元素
